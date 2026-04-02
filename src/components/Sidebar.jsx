@@ -11,23 +11,7 @@ import {
 export default function Sidebar({page,setPage , role,setRole,isOpen,setIsOpen}) {
   return (
     <>
-    {/* HAMBURGER */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 left-4 md:hidden z-50 bg-blue-700 text-white p-3 rounded-lg shadow-lg"
-      >
-        {isOpen ? <FiX size={22} /> : <FiMenu size={22} />}
-      </button>
-
-      {/* OVERLAY */}
-      {isOpen && (
-        <div
-          onClick={() => setIsOpen(false)}
-          className="fixed inset-0 bg-black/40 md:hidden z-30"
-        />
-      )}
-
-
+   
      <aside
         className={`
         fixed md:static top-0 left-0 h-full w-60
