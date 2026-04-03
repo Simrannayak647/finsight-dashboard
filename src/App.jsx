@@ -28,8 +28,13 @@ export default function App() {
       <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} role={role} setRole={setRole} />
       
 <div className="flex flex-col flex-1">
+  <Navbar
+  role={role}
+  setRole={setRole}
+  isOpen={isOpen}
+  setIsOpen={setIsOpen}
+/>
 
-        <Navbar role={role} setRole={setRole} />
  <main className="flex-1 overflow-y-auto p-4 sm:p-6">
           <Dashboard
             transactions={transactions}
