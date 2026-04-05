@@ -25,7 +25,7 @@ export default function App(){
   return(
     <div className="flex h-screen">
 
-      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen}/>
+      <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} role={role} setRole={setRole}/>
 
       <div className="flex-1 flex flex-col">
 
