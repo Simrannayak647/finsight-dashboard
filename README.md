@@ -6,6 +6,10 @@ A responsive **personal finance dashboard** built using **React + Vite + Tailwin
 FinSight demonstrates modern frontend architecture for tracking transactions, calculating financial KPIs, and visualizing balance trends over time.
 
 ---
+🔗 **Live Demo:**  
+https://finsight-dashboard-alpha.vercel.app/
+
+---
 
 ## ✅ Quick Overview
 
