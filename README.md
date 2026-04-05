@@ -190,12 +190,12 @@ finsight-dashboard/
 
 ---
 ### 📸 Screenshots
-![Dashboard](<img1.png>)
 
-![](<img2.png>)
+c:\Users\ThirstyMaart\Pictures\Screenshots\assets\img1.png
 
-![](<img3.png>)
+c:\Users\ThirstyMaart\Pictures\Screenshots\assets\img2.png
 
+c:\Users\ThirstyMaart\Pictures\Screenshots\assets\img3.png
 
 
 ## ⚙️ Getting Started
