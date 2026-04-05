@@ -1,8 +1,3 @@
-Perfect 👍 — I’ll convert your patch into a **clean, ready-to-paste `README.md`** file.
-
-You can **replace your entire README.md** with this.
-
----
 
 # 📊 FinSight Dashboard
 
