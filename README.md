@@ -191,7 +191,9 @@ finsight-dashboard/
 ---
 ### 📸 Screenshots
 ![Dashboard](<Screenshot (7).png>)
+
 ![](<Screenshot (8).png>)
+
 ![](<Screenshot (9).png>)
 
 
