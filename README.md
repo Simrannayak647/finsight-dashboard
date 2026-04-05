@@ -190,11 +190,11 @@ finsight-dashboard/
 
 ---
 ### 📸 Screenshots
-![Dashboard](<Screenshot (7).png>)
+![Dashboard](<img1.png>)
 
-![](<Screenshot (8).png>)
+![](<img2.png>)
 
-![](<Screenshot (9).png>)
+![](<img3.png>)
 
 
 
