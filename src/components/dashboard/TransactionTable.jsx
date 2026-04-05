@@ -68,27 +68,56 @@ const [filterType, setFilterType] = useState("all");
           </div>
 
           {/* Filter Dropdown with icon */}
-          <div className="relative w-full sm:w-44">
-            <FiFilter className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm pointer-events-none" />
-            <select
-              value={filterType}
-              onChange={(e) => setFilterType(e.target.value)}
-              className="w-full pl-9 pr-8 py-2.5 border border-gray-200 rounded-xl text-sm 
-                         focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 
-                         outline-none transition-all bg-gray-50/50 hover:bg-white 
-                         cursor-pointer appearance-none"
-              style={{
-                backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236B7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E")`,
-                backgroundPosition: 'right 0.75rem center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: '1.25rem',
-              }}
-            >
-              <option value="all">All transactions</option>
-              <option value="income">Income</option>
-              <option value="expense">Expense</option>
-            </select>
-          </div>
+          <div className="flex items-center gap-2">
+
+  <div className="relative w-full sm:w-48 group">
+    
+    {/* Left Icon */}
+    <FiFilter className="
+      absolute left-3 top-1/2 -translate-y-1/2
+      text-gray-400 group-focus-within:text-blue-500
+      transition-colors
+    " />
+
+    <select
+      value={filterType}
+      onChange={(e) => setFilterType(e.target.value)}
+      className="
+        w-full
+        pl-9 pr-10 py-2.5
+        rounded-xl
+        border border-gray-200
+        text-sm font-medium text-gray-700
+        bg-white
+        shadow-sm
+        appearance-none
+        transition-all duration-200
+        
+        hover:border-gray-300
+        focus:outline-none
+        focus:ring-2 focus:ring-blue-500/20
+        focus:border-blue-500
+        focus:shadow-md
+        cursor-pointer
+      "
+    >
+      <option value="all">All Transactions</option>
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+
+    {/* Custom Arrow */}
+    <svg
+      className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+    </svg>
+
+  </div>
+</div>
         </div>
       </div>
 
