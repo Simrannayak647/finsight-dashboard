@@ -193,15 +193,14 @@ finsight-dashboard/
 ```
 
 ---
-### 📸 Screenshots
 
-c:\Users\ThirstyMaart\Pictures\Screenshots\assets\img1.png
+## 📸 Screenshots
 
-c:\Users\ThirstyMaart\Pictures\Screenshots\assets\img2.png
+![Dashboard](./src/assets/img1.png)
 
-c:\Users\ThirstyMaart\Pictures\Screenshots\assets\img3.png
+![Analytics](./src/assets/img2.png)
 
-
+![Transactions](./src/assets/img3.png)
 ## ⚙️ Getting Started
 
 ### Prerequisites
